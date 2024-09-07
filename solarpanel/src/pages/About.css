@@ -1,0 +1,62 @@
+/* Hakkımızda Sayfası Stilleri */
+.about-page {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    padding: 20px;
+  }
+  
+  .about-header {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .about-header h1 {
+    font-size: 2.5rem;
+  }
+  
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .about-text {
+    max-width: 800px;
+    margin-bottom: 20px;
+  }
+  
+  .about-text h2 {
+    font-size: 1.8rem;
+    margin-top: 20px;
+  }
+  
+  .about-text p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-top: 10px;
+  }
+  
+  .about-text ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .about-text li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .about-image-large {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 8px;
+    margin: 20px 0;
+  }
+  
+  @media (max-width: 768px) {
+    .about-content {
+      padding: 0 10px;
+    }
+  }
+  

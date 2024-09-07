@@ -1,0 +1,155 @@
+/* Genel stil */
+.home-container {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  /* Hero Bölgesi */
+  .hero-section {
+    background: url('/images/solar-hero.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .btn-primary {
+    background-color: #1e3a8a;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .btn-primary:hover {
+    background-color: #3749a9;
+  }
+  
+  /* Hakkımızda Bölgesi */
+  .about-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .about-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-section p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  /* Ürünler Bölgesi */
+  .products-section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .products-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .product-card {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1.5%;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: 200px; /* Sabit yükseklik */
+    object-fit: cover; /* Orantılı kırpma */
+    border-radius: 8px;
+  }
+  
+  .product-card h3 {
+    margin: 20px 0 10px;
+    font-size: 1.2rem;
+  }
+  
+  .product-card p {
+    color: #666;
+  }
+  
+  /* Neden Biz Bölgesi */
+  .why-us-section {
+    padding: 40px 20px;
+    background-color: #f3f4f6;
+    text-align: center;
+  }
+  
+  .why-us-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .why-us-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .why-us-section li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  /* İletişim Çağrısı Bölgesi */
+  .contact-call-to-action {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #1e3a8a;
+    color: white;
+  }
+  
+  .contact-call-to-action h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact-call-to-action p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+  
+  .contact-call-to-action .btn-primary {
+    background-color: white;
+    color: #1e3a8a;
+    border: 2px solid white;
+  }
+  
+  .contact-call-to-action .btn-primary:hover {
+    background-color: #f3f4f6;
+  }
+
+  @media (max-width: 768px) {
+    .product-card {
+      width: 100%; /* Kartları tam genişlikte yapar */
+      margin: 10px 0; /* Kartlar arasında dikey boşluk sağlar */
+    }
+  }
+  
