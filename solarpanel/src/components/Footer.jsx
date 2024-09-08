@@ -26,7 +26,7 @@ const Footer = () => {
         </div>
 
         <div className="copyright">
-          <p>&copy; {new Date().getFullYear()} Solar Panels. Tüm hakları saklıdır.</p>
+          <p className="copyright-text">&copy; {new Date().getFullYear()} Solar Panels. Tüm hakları saklıdır.</p>
         </div>
       </div>
     </footer>

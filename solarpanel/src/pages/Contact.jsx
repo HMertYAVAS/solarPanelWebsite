@@ -26,6 +26,7 @@ const Contact = () => {
   };
 
   return (
+    <div className='page-container'>
     <div className="contact-container">
       <h2>İletişim</h2>
       
@@ -82,6 +83,7 @@ const Contact = () => {
             </p>
         </div>
       </div>
+    </div>
     </div>
   );
 };

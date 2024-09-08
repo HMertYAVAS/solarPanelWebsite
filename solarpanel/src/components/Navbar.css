@@ -1,10 +1,9 @@
-/* Navbar Stilleri */
 .navbar {
+  background-color: #54a8ff; /* Açık mavi arka plan */
+  color: #FFFFFF; /* Beyaz metin */
   position: sticky;
   top: 0;
   width: 100%;
-  background-color: #333;
-  color: #fff;
   z-index: 1000;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -18,7 +17,7 @@
 
 .navbar-logo {
   font-size: 1.5rem;
-  color: #fff;
+  color: #FFFFFF; /* Beyaz metin */
   text-decoration: none;
 }
 
@@ -34,14 +33,14 @@
 }
 
 .navbar-menu a {
-  color: #fff;
+  color: #FFFFFF; /* Beyaz metin */
   text-decoration: none;
   font-size: 1rem;
   transition: color 0.3s ease;
 }
 
 .navbar-menu a:hover {
-  color: #f0f0f0;
+  color: #004080; /* Koyu mavi hover rengi */
 }
 
 .navbar-hamburger {
@@ -51,7 +50,7 @@
 }
 
 .navbar-hamburger span {
-  background-color: #fff;
+  background-color: #FFFFFF; /* Beyaz çizgiler */
   height: 3px;
   width: 25px;
   margin: 3px 0;
@@ -66,7 +65,7 @@
     position: absolute;
     top: 45px; /* Navbar'ın yüksekliği kadar yukarıda */
     left: 0;
-    background-color: #333;
+    background-color: #54a8ff; /* Açık mavi arka plan */
     transform: translateY(-100%);
     transition: transform 0.3s ease-in-out;
     opacity: 0; /* Başlangıçta görünmez */
@@ -79,12 +78,11 @@
     opacity: 1; /* Menü açıkken görünür */
     visibility: visible; /* Menü açıkken görünür */
   }
-
+  
+  .navbar-menu li {
+    margin: 10px 0;
+  }
   .navbar-hamburger {
     display: flex;
-  }
-
-  .navbar li {
-    margin: 10px 0;
   }
 }

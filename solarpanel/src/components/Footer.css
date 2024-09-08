@@ -1,6 +1,6 @@
 /* Footer Genel Ayarlar */
 .footer {
-    background-color: #282c34;
+    background-color: #54a8ff;
     padding: 20px 0;
     color: white;
     text-align: center;
@@ -43,7 +43,11 @@
   .copyright {
     margin-top: 10px;
     font-size: 0.9em;
-    color: #bbb;
+    color: #fcfcfc;
+  }
+
+  .copyright-text {
+    color: #fcfcfc;
   }
   
   /* Mobil görünüm için düzenlemeler */

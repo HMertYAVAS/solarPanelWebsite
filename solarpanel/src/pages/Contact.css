@@ -1,3 +1,8 @@
+.page-container {
+  min-height: 80vh;
+  margin-top: 5vh;
+}
+
 /* Genel kapsayıcı stil */
 .contact-container {
   max-width: 1200px;
@@ -12,7 +17,7 @@ h2 {
   text-align: center;
   margin-bottom: 30px;
   font-size: 2rem;
-  color: #1e3a8a; /* Mavi başlık */
+  color: #077af5; /* Mavi başlık */
   font-weight: 600;
 }
 
@@ -90,7 +95,7 @@ h2 {
 .contact-form button {
   width: 100%;
   padding: 12px;
-  background-color: #1e3a8a;
+  background-color: #077af5;
   color: white;
   font-size: 1.1rem;
   border: none;
@@ -114,7 +119,7 @@ h2 {
 
 .contact-info h3 {
   font-size: 1.5rem;
-  color: #1e3a8a;
+  color: #077af5;
   margin-bottom: 20px;
 }
 
@@ -144,7 +149,7 @@ h2 {
 
 .contact-info strong {
   font-weight: 600;
-  color: #1e3a8a;
+  color: #0077B5;
 }
 
 /* Mobilde formun daha geniş görünmesi için */
